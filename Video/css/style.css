@@ -30,7 +30,7 @@ a[href^="tel:"] {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../img/spinner.gif) 50% 50% no-repeat #fff;
+  background: url(../img/spinner1.gif) 50% 50% no-repeat #000;
 }
 .preloader {
   background: url(../img/loader.gif) center center no-repeat;
