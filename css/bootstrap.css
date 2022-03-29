@@ -71,6 +71,9 @@ img {
 	vertical-align: middle;
 	border: 0;
 	-ms-interpolation-mode: bicubic;
+	margin-left: -2px;
+	margin-right: -2px;
+	
 }
 #map_canvas img {
   max-width: none;

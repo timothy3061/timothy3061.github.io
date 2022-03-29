@@ -467,10 +467,9 @@ p {
 .portfolio {
   list-style: none outside;
   margin: 0;
-  text-align: center;
 }
 .portfolio li {
-  /*float: left;*/
+  float: left;
   margin: 0 0 30px 30px;
 }
 .magnifier {
@@ -1327,11 +1326,9 @@ h9 span {
    font: 24px/45px 'Open Sans', Sans-Serif; 
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.4);
+   background: rgba(0, 0, 0, 0.7);
    padding: 0px; 
    border-radius: 0px 30px 30px 0px;
    padding-right: 10px;
-   display: block;
-   text-align: left;
    
 }
