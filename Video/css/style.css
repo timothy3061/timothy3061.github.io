@@ -907,10 +907,20 @@ footer {
   .overflow.extra {
     overflow: hidden;
   }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(560px, 1fr) );
+    grid-gap: 15px;
+  }
 }
 @media (max-width: 1299px) and (min-width: 979px) {
   .overflow.extra {
     overflow: visible;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(560px, 1fr) );
+  grid-gap: 15px;
   }
 }
 @media (max-width: 1300px) {
@@ -1247,6 +1257,11 @@ footer {
   #contact-form .message {
     min-height: 290px;
   }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
+    grid-gap: 15px;
+	}
 }
 @media (max-width: 320px) {
   .brand_ a img {
@@ -1276,6 +1291,11 @@ footer {
   #form-search input {
     width: 57%;
   }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
+    grid-gap: 15px;
+	}
 }
 .clearfix {
   *zoom: 1;
@@ -1331,8 +1351,3 @@ footer {
 	margin: 0 auto;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(560px, 1fr) );
-    grid-gap: 15px;
-}
